@@ -10,9 +10,9 @@ const Search = () => {
   const [searchText, setSearchText] = useState(searchTerm);
 
   return (
-    <div className="relative  w-full md:ml-40  sm:ml-48 md:-mt-10 ">
+    <div className="relative  w-full  ">
       <input
-        className=" h-10 md:w-7/12 w-full mb-4 p-6 sm:w-7/12 dark:bg-gray-200 border-2 rounded-full shadow-sm outline-none  text-black hover:shadow-lg "
+        className="absolute md:-mt-12  md:ml-40  sm:ml-32     h-10 md:w-7/12 w-full mb-4 p-6 sm:w-7/12 dark:bg-gray-200 border-2 rounded-full shadow-sm outline-none  text-black hover:shadow-lg "
         type="text"
         placeholder="Search Google"
         value={searchText}

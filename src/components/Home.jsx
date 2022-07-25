@@ -89,7 +89,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-44 pt-4 flex justify-center items-center border-t dark:border-gray-700 border-gray-300 ">
+        <div className="text-center mt-40 flex justify-center items-center border-t dark:border-gray-700 border-gray-300 ">
           <h1>@2022 Google, Inc.developed by Nishant Argade</h1>
         </div>
       </div>

@@ -66,13 +66,13 @@ const links = [
 const Links = () => {
   return (
     <>
-      <div className=" sm:ml-0 md:ml-5 sm:m-2 ml-3 ">
-        <div className="flex  flex-wrap">
+      <div className=" sm:pt-10 md:pt-0 md:pl-10 sm:ml-36  pt-10">
+        <div className="flex flex-wrap  ">
           {links.map((link, i) => (
             <NavLink
               key={i}
               to={link.url}
-              className=" text-gray-600  dark:text-gray-300 focus:border-b-2 focus:text-blue-700 border-blue-700 hover:text-blue-700 pb-2 sm:mr-5 mr-2   "
+              className=" text-gray-600 mt-4 dark:text-gray-300 focus:border-b-2 focus:text-blue-700 border-blue-700 hover:text-blue-700 p-1 sm:mr-5 mr-0   "
             >
               {link.text}
             </NavLink>

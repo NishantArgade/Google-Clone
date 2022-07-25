@@ -12,11 +12,13 @@ const Navbar = () => {
   const { darkTheme } = useSelector((state) => state.google);
 
   return (
-    <div className="sm:px-5 px-2 pt-8 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-300">
-      <div className="flex justify-between items-center space-x-5 w-screen">
-        <Link to="/">
-          <img src={googlePng} alt="noreffered" style={{ width: "100px" }} />
-        </Link>
+    <div className="sm:px-5 px-2 pt-8  border-b dark:border-gray-700 border-gray-300">
+      <div className="flex justify-between items-center ">
+        <div>
+          <Link to="/">
+            <img src={googlePng} alt="noreffered" style={{ width: "100px" }} />
+          </Link>
+        </div>
         <div className="flex items-center">
           <IconButton className="dark:text-white">
             <AppsIcon />
